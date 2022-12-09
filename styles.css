@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 16px;
+    padding: 8px 32px;
     margin: 0;
 }
 
@@ -27,10 +27,12 @@ ul {
     flex-shrink: 0;
     font-weight: 900;
     font-size: 24px;
+    color: #F9FAF8;
 }
 
 li {
-    font-size: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 a {
@@ -42,10 +44,44 @@ a {
     background-color: #1F2937;
     margin: 0;
     display: flex;
-    justify-content: space-between;
-    padding: 0 16px;
+    justify-content: space-evenly;
+    padding: 100px 0;
 }
 
 .image {
     background-color: grey;
+    width: 550px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 4px solid black;
+}
+
+.title {
+    width: 400px;
+    height: 300px;
+}
+
+.main-info h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: -16px;
+}
+
+.main-info p {
+    color: rgb(163, 190, 199);
+}
+
+.main-info button {
+    border-radius: 5px;
+    background-color: rgb(41, 115, 150);
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-weight: 900;
+    font-size: 20px;
+    border: 0;
 }
